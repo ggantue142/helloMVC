@@ -10,6 +10,23 @@
 
 <body>
 	<h1> You registered successfully.</h1>
+	<table cellpadding="5">
+				<tr>
+					<td>이름 : ${customer.name}</td>
+				</tr>
+				<tr>
+					<td>아이디 : ${customer.id}</td>
+				</tr>
+				<tr>
+					<td>비밀번호 : ${customer.password} </td>
+				</tr>
+				<tr>
+					<td>성별 : ${customer.gender} </td>
+				</tr>
+				<tr>
+					<td>이메일 : ${customer.email}</td>
+				</tr>
+			</table>
 	<p>
 		<a href="/hw1-helloMVC/index.jsp"> go to home page </a>
 	</p>
